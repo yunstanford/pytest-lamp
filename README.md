@@ -1,2 +1,0 @@
-# pytest-lamp
-Pytest Plugin
