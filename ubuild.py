@@ -16,11 +16,11 @@ def test(build):
     build.packages.install("flake8")
     build.executables.run([
         "pytest", "./tests",
-        "--cov", "pytest-lamp",
+        "--cov", "pytest_lamp",
         "--cov-report", "term-missing",
     ] + build.options.args)
     build.executables.run([
-        "flake8", "pytest-lamp", "tests"
+        "flake8", "pytest_lamp", "tests"
     ])
 
 
