@@ -1,6 +1,6 @@
 import asyncio
 import pytest
-from pytest_lamp.decorators import asyncserver
+from pytest_lamp import asyncserver
 
 
 @pytest.mark.asyncio

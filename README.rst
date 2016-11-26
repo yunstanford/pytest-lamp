@@ -11,3 +11,5 @@ pytest-lamp
 
 
 a Pytest Plugin.
+
+Dev Mode.
